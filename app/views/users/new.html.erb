@@ -1,0 +1,8 @@
+<%= simple_form_for @user, html: { multipart: true } do |f| %>
+  <div class="large-4 form-center">
+    <%= f.input :name, label: '名字' %>
+    <%= f.input :email, label: '電子信箱' %>
+    <%= f.file_field :avatar, label: "or image url" %>
+    <%= f.submit '送出', class: 'submit' %>
+  </div>
+<% end %>
