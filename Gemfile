@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'carrierwave'
 
 gem 'zurb-foundation'
+gem 'compass-rails' # Support for zurb-foundation
 gem 'simple_form'
 gem 'mini_magick'
 
@@ -46,6 +47,12 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'rails_layout'
+  gem 'quiet_assets'
+end
+
+group :production do
+  gem 'rails_12factor'
+  gem 'thin'
 end
 
 # Use ActiveModel has_secure_password
