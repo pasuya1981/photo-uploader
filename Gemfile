@@ -31,6 +31,9 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'carrierwave'
 
+gem 'zurb-foundation'
+gem 'simple_form'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
@@ -41,6 +44,7 @@ group :development, :test do
   gem 'annotate'
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'rails_layout'
 end
 
 # Use ActiveModel has_secure_password
