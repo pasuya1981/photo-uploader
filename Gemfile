@@ -33,6 +33,7 @@ gem 'carrierwave'
 
 gem 'zurb-foundation'
 gem 'simple_form'
+gem 'mini_magick'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
